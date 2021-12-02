@@ -1,6 +1,6 @@
 C:\Users\louis\RiderProjects\TP 1\TP1Console\bin\Debug\TP1Console.exe
 C:\Users\louis\RiderProjects\TP 1\TP1Console\bin\Debug\TP1Console.pdb
-C:\Users\louis\RiderProjects\TP 1\TP1Console\obj\Debug\TP1Console.csproj.AssemblyReference.cache
 C:\Users\louis\RiderProjects\TP 1\TP1Console\obj\Debug\TP1Console.csproj.CoreCompileInputs.cache
 C:\Users\louis\RiderProjects\TP 1\TP1Console\obj\Debug\TP1Console.exe
 C:\Users\louis\RiderProjects\TP 1\TP1Console\obj\Debug\TP1Console.pdb
+C:\Users\louis\RiderProjects\TP 1\TP1Console\obj\Debug\TP1Console.csprojAssemblyReference.cache

@@ -33,7 +33,7 @@ namespace TP1Console
                     }
                 }
                 
-                Console.WriteLine("-------------- Affichage nombres impair ---------------");
+                Console.WriteLine("-------------- Affichage Table d'un nombre choisi ---------------");
 
                 var inputUser = AskUserForParameter();
 

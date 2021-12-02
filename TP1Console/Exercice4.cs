@@ -14,8 +14,25 @@ namespace TP1Console
 
         private static void QuestionA()
         {
-            int line = AskUserForParameter();
-            int column = AskUserForParameter(); 
+            
+            Console.WriteLine("------- Exercice 4 Square QA  -------");
+            Console.WriteLine("Dimension du Rectangle");
+            
+            int line = 0;
+            int column = 0; 
+            
+            while (line < 1)
+            { 
+                Console.WriteLine("Choose number of lines");
+                line = AskUserForParameter();
+            }
+            
+            while (column < 1)
+            { 
+                Console.WriteLine("Choose number of columns");
+                column = AskUserForParameter();
+            }
+            
             string[,] array = new string[line, column];
 
             
@@ -43,13 +60,13 @@ namespace TP1Console
             }
             
             array[0,0] = "0";
-            array[column-1,0] = "0";
-            array[0,line-1] = "0";
-            array[column-1,line-1] = "0";
+            array[0, column-1] = "0";
+            array[line-1,0] = "0";
+            array[line-1, column-1] = "0";
             
-            for (int i = 0; i < column; i++)
+            for (int i = 0; i < line; i++)
             {
-                for (int j = 0; j < line; j++)
+                for (int j = 0; j < column; j++)
                 {
                     Console.Write($"{array[i, j]} ");
                 }
@@ -61,8 +78,24 @@ namespace TP1Console
         
         private static void QuestionB()
         {
-            int line = AskUserForParameter();
-            int column = AskUserForParameter(); 
+            Console.WriteLine("------- Exercice 4 Square QB  -------");
+            Console.WriteLine("Dimension du Rectangle");
+            
+            int line = 0;
+            int column = 0; 
+            
+            while (line < 1)
+            { 
+                Console.WriteLine("Choose number of lines");
+                line = AskUserForParameter();
+            }
+            
+            while (column < 1)
+            { 
+                Console.WriteLine("Choose number of columns");
+                column = AskUserForParameter();
+            }
+            
             string[,] array = new string[line, column];
 
             
@@ -114,13 +147,13 @@ namespace TP1Console
             }
             
             array[0,0] = "0";
-            array[column-1,0] = "0";
-            array[0,line-1] = "0";
-            array[column-1,line-1] = "0";
+            array[0, column-1] = "0";
+            array[line-1,0] = "0";
+            array[line-1, column-1] = "0";
             
-            for (int i = 0; i < column; i++)
+            for (int i = 0; i < line; i++)
             {
-                for (int j = 0; j < line; j++)
+                for (int j = 0; j < column; j++)
                 {
                     Console.Write($"{array[i, j]} ");
                 }
